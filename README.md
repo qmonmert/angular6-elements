@@ -9,6 +9,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * `npm install -g @angular/cli@latest`
 * `ng config -g cli.packageManager yarn`
 * `ng add @angular/elements`
+* `ng g c alert`
 
 ## Development server
 
