@@ -10,6 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * `ng config -g cli.packageManager yarn`
 * `ng add @angular/elements`
 * `ng g c alert`
+* `ng build --prod`
 
 ## Development server
 
