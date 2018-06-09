@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ViewEncapsulation } from "@angular/core";
 
 @Component({
-  selector: 'app-alert',
-  templateUrl: './alert.component.html',
-  styleUrls: ['./alert.component.css']
+  selector: "app-alert",
+  template: `
+    <p>
+      alert component
+    </p>
+  `,
+  styles: [
+    `
+    p {
+      color: red;
+    }
+  `
+  ],
+  encapsulation: ViewEncapsulation.Native
 })
-export class AlertComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+export class AlertComponent {}
